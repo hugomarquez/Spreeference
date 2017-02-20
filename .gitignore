@@ -3,6 +3,7 @@ log/*.log
 pkg/
 coverage
 Guardfile
+Gemfile.lock
 tmp
 spec/dummy/
 spec/dummy/db/*.sqlite3
