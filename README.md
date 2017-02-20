@@ -1,4 +1,4 @@
-# spreeference - Application-wide and per model cached and persisted preferences
+# spreeference
 
 [![Gem Version](https://badge.fury.io/rb/spreeference.svg)](https://badge.fury.io/rb/spreeference)
 [![Build Status](https://travis-ci.org/hugomarquez/spreeference.svg?branch=master)](https://travis-ci.org/hugomarquez/spreeference)
