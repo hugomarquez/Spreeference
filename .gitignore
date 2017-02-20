@@ -1,3 +1,4 @@
+*.gem
 .bundle/
 log/*.log
 pkg/
@@ -5,7 +6,6 @@ coverage
 Guardfile
 Gemfile.lock
 tmp
-spec/dummy/
 spec/dummy/db/*.sqlite3
 spec/dummy/db/*.sqlite3-journal
 spec/dummy/log/*.log
