@@ -1,3 +1,9 @@
+# spreeference - Application-wide and per model cached and persisted preferences
+
+[![Gem Version](https://badge.fury.io/rb/spreeference.svg)](https://badge.fury.io/rb/spreeference)
+[![Build Status](https://travis-ci.org/hugomarquez/spreeference.svg?branch=master)](https://travis-ci.org/hugomarquez/spreeference)
+[![Coverage Status](https://coveralls.io/repos/github/hugomarquez/spreeference/badge.svg?branch=master)](https://coveralls.io/github/hugomarquez/spreeference?branch=master)
+
 ## Overview
 The reason for this gem is to extract from Spree Core the Preferences functionality, which can be used in other projects besides Spree and e-commerce.
 
