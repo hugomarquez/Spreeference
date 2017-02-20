@@ -1,11 +1,11 @@
 ## Overview
-The reason for this gem is to extract from Spree Core the Preferences functionality, which can be used in other projects besides Spree and e-commerce, 
+The reason for this gem is to extract from Spree Core the Preferences functionality, which can be used in other projects besides Spree and e-commerce.
 
 Copyright (c) 2009-2015 [Spree Commerce][1] and [Contributors][2], released under the [New BSD License][3]
 
 [1]: https://github.com/spree
-[2]: #
-[3]: #
+[2]: https://github.com/hugomarquez/spreeference/graphs/contributors
+[3]: https://github.com/hugomarquez/spreeference/blob/master/LICENSE.md
 
 Spreeference preferences support general application configuration and preferences per model instance. Additional preferences can be added by your application or included extensions.
 
@@ -25,6 +25,16 @@ end
 This will work if your model is a subclass of `Spreeference::ApplicationRecord`. If found, the `preferences`attribute gets serialized into a `Hash` and merged with the default values.
 
 As another example, you might want to add preferences for users to manage their notification settings. Just make sure your `User` model inherits from `Spreeference::ApplicationRecord` then add the `preferences` column. You'll then be able to define preferences for `User`s without adding extra columns to the database table.
+
+## Installing into a new Rails application
+To get up and running with spreeference in a new Rails application is simple. Just follow the instructions below.
+		
+		rails new my_project
+		cd my_project
+		echo "gem 'spreeference'" >> Gemfile
+		bundle
+		rails g spreeference:install
+		rake db:migrate
 
 ### Motivation
 
