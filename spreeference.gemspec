@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Spreeference::VERSION
   s.authors     = ["hugomarquez", "Spree Commerce"]
   s.email       = ["hugomarquez.dev@gmail.com"]
-  s.homepage    = "http://google.com"
-  s.summary     = "Summary of Spreeference."
-  s.description = "Description of Spreeference."
+  s.homepage    = "https://github.com/hugomarquez/spreeference"
+  s.summary     = "application-wide and per model cached and persisted preferences"
+  s.description = "application-wide and per model cached and persisted preferences"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE.md", "Rakefile", "README.md"]

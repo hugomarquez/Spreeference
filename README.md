@@ -1,5 +1,5 @@
 ## Overview
-The reason for this gem is to extract from Spree Core, the Preferences functionality, which can be used in other projects besides Spree and e-commerce, 
+The reason for this gem is to extract from Spree Core the Preferences functionality, which can be used in other projects besides Spree and e-commerce, 
 
 Copyright (c) 2009-2015 [Spree Commerce][1] and [Contributors][2], released under the [New BSD License][3]
 
