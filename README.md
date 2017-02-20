@@ -26,6 +26,16 @@ This will work if your model is a subclass of `Spreeference::ApplicationRecord`.
 
 As another example, you might want to add preferences for users to manage their notification settings. Just make sure your `User` model inherits from `Spreeference::ApplicationRecord` then add the `preferences` column. You'll then be able to define preferences for `User`s without adding extra columns to the database table.
 
+## Installing into a new Rails application
+To get up and running with spreeference in a new Rails application is simple. Just follow the instructions below.
+		
+		rails new my_project
+		cd my_project
+		echo "gem 'spreeference'" >> Gemfile
+		bundle
+		rails g spreeference:install
+		rake db:migrate
+
 ### Motivation
 
 Preferences for models within an application are very common. Although the rule of thumb is to keep the number of preferences available to a minimum, sometimes it's necessary if you want users to have optional preferences like disabling e-mail notifications.
