@@ -1,4 +1,4 @@
-# spreeference
+# Spree + Preference = Spreeference
 
 [![Gem Version](https://badge.fury.io/rb/spreeference.svg)](https://badge.fury.io/rb/spreeference)
 [![Build Status](https://travis-ci.org/hugomarquez/spreeference.svg?branch=master)](https://travis-ci.org/hugomarquez/spreeference)
